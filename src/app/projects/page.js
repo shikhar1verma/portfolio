@@ -14,7 +14,7 @@ export default async function ProjectsPage() {
       <h1 className="text-2xl font-bold">Projects</h1>
       <div className="grid md:grid-cols-2 gap-4">
         {projects.map((project) => (
-          <div key={project.slug} className="p-4 border rounded-md">
+          <div key={project.slug} className="p-4 border border-gray-200 dark:border-gray-700 rounded-md">
             <h2 className="text-xl font-semibold">{project.name}</h2>
             <p>{project.summary}</p>
             <Link href={`/projects/${project.slug}`} className="text-brand-600 hover:underline">
