@@ -14,7 +14,7 @@ export default async function ExperienceList() {
       <h1 className="text-2xl font-bold">Experience</h1>
       <ul className="space-y-4">
         {experiences.map((exp) => (
-          <li key={exp.slug} className="p-4 border rounded-md">
+          <li key={exp.slug} className="p-4 border border-gray-200 dark:border-gray-700 rounded-md">
             <h2 className="text-xl font-semibold">{exp.company}</h2>
             <p className="text-sm">
               {exp.role} · {exp.period.from} — {exp.period.to}
