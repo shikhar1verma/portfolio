@@ -9,17 +9,29 @@ npm install
 npm run dev
 ```
 
-Edit the JSON files in `content/` to update your profile, experience, projects and skills.
+## Production build
+
+```bash
+npm run build
+npm start
+```
+
+## Editing Content
+
+Update the files in `content/` to change your portfolio data:
+
+- `site.json` – site title, description and navigation order.
+- `profile.json` – personal bio, avatar and social links.
+- `experience.json` – work history entries.
+- `projects.json` – project gallery records.
+- `skills.json` – language and tool lists.
+- `education.json` – education timeline.
+
+Replace `public/resume.pdf` with your résumé and `public/avatar.jpg` with your photo.
 
 ## Deployment
 
 [Deploy to Vercel](https://vercel.com/new) and set `REVALIDATE_SECRET` in your environment variables.
-
-## Adding Content
-
-- Add experience entries in `content/experience.json`.
-- Add project entries in `content/projects.json`.
-- Update `public/resume.pdf` with your résumé.
 
 ## Revalidation
 
