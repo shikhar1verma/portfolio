@@ -1,0 +1,14 @@
+[
+  {
+    "institution": "Your University / College",
+    "degree": "B.Tech. in Computer Science",
+    "period": { "from": "2014", "to": "2018" },
+    "highlights": ["8.2 CGPA", "Head of Coding Club"]
+  },
+  {
+    "institution": "IIT Kanpur (planned)",
+    "degree": "E-degree in AI & Machine Learning",
+    "period": { "from": "TBD", "to": "TBD" },
+    "highlights": ["Admitted for next intake (tentative)"]
+  }
+]

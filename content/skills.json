@@ -1,1 +1,8 @@
-["JavaScript", "React", "Next.js"]
+{
+  "languages": ["Python", "JavaScript (ES6)", "SQL"],
+  "frameworks": ["Django", "Django REST Framework", "Node.js/Express", "Flask", "Vue", "Svelte"],
+  "testing": ["Jest", "Cypress"],
+  "cloud": ["Vercel", "AWS EC2", "Docker"],
+  "ml": ["TensorFlow", "Keras", "NLTK"],
+  "databases": ["PostgreSQL", "MongoDB", "MySQL", "ElasticSearch"]
+}

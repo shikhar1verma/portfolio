@@ -1,8 +1,18 @@
 [
   {
-    "slug": "awesome-project",
-    "name": "Awesome Project",
-    "summary": "An awesome project description",
-    "technologies": ["Next.js", "Tailwind"]
+    "slug": "pqai",
+    "name": "PQAI",
+    "summary": "Open AI-assisted search engine to find similar inventions quickly.",
+    "role": "Full-stack Engineer",
+    "technologies": ["Flask", "Vue", "Elasticsearch", "TensorFlow"],
+    "links": { "live": "https://pqai.example.com" }
+  },
+  {
+    "slug": "kpi-manager",
+    "name": "KPI Manager",
+    "summary": "Central KPI registry with trend APIs and Excel bulk-upload.",
+    "role": "Backend Lead",
+    "technologies": ["Django", "Celery", "PostgreSQL", "React"],
+    "links": { "caseStudy": "/experience/itbd" }
   }
 ]

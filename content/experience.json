@@ -1,9 +1,34 @@
 [
   {
-    "slug": "acme-inc",
-    "company": "Acme Inc",
-    "role": "Software Engineer",
-    "summary": "Worked on cool stuff",
-    "tags": ["React", "Node.js"]
+    "slug": "itbd",
+    "company": "Innovation Technology By Design (TeamGPS)",
+    "location": "Remote",
+    "period": { "from": "2022-03", "to": "Present" },
+    "role": "Backend Lead",
+    "overview": "Architecting KPI & performance-management platform used by 150+ MSPs; led feature roadmap and scalability initiatives.",
+    "stack": ["Python", "Django", "Celery", "PostgreSQL", "React"],
+    "highlights": [
+      "⚡ KPI Manager — central registry, Excel bulk-upload, trend APIs (–90 % manual onboarding)",
+      "📈 Scorecards — 100 k+ data points/day, role & date filters",
+      "🌐 Accountability Chart — 500-node org chart rendered in 70 ms",
+      "💳 Billing Automation — seat-based subscription with fx sync, invoice PDFs",
+      "🤖 AI Utilities — LLM-based KPI anomaly detector prototype"
+    ]
+  },
+  {
+    "slug": "greyb",
+    "company": "GreyB Services",
+    "location": "Mohali, India",
+    "period": { "from": "2018-07", "to": "2022-02" },
+    "role": "Software Developer",
+    "overview": "Built patent-search and analytics products; specialised in full-stack JavaScript & Python with ML pipelines.",
+    "stack": ["Python", "Flask", "Node.js", "Svelte", "Vue", "MongoDB", "MySQL"],
+    "highlights": [
+      "🔍 PQAI — AI-assisted invention search in partnership with AT&T; used daily by 100s of attorneys",
+      "🔮 Catalyst — future-tech patent analytics for 50+ clients",
+      "📚 NPLSE — retrieved 13 hard-to-index research databases, cutting search time 3 weeks → 3 days",
+      "📦 Patent Data Pipeline — ingested 13.4 million USPTO patents weekly",
+      "🤖 ML models — problem-statement detector & patent-sense summariser"
+    ]
   }
 ]

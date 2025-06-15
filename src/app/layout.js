@@ -1,11 +1,17 @@
 import '@/styles/global.css';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
+import fs from 'fs/promises';
+import path from 'path';
 
-export const metadata = {
-  title: 'portfolio',
-  description: 'My portfolio website',
-};
+export async function generateMetadata() {
+  const data = await fs.readFile(path.join(process.cwd(), 'content/site.json'), 'utf8');
+  const site = JSON.parse(data);
+  return {
+    title: site.title,
+    description: site.description,
+  };
+}
 
 export default function RootLayout({ children }) {
   return (
