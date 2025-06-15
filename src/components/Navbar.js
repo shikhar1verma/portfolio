@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import DarkModeToggle from './DarkModeToggle';
+import ThemeToggle from './ThemeToggle';
 
 export default function Navbar() {
   return (
@@ -10,7 +10,7 @@ export default function Navbar() {
       >
         Portfolio
       </Link>
-      <DarkModeToggle />
+      <ThemeToggle />
     </nav>
   );
 }
