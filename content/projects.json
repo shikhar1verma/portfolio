@@ -1,0 +1,8 @@
+[
+  {
+    "slug": "awesome-project",
+    "name": "Awesome Project",
+    "summary": "An awesome project description",
+    "technologies": ["Next.js", "Tailwind"]
+  }
+]
