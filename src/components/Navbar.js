@@ -1,5 +1,5 @@
-import Link from 'next/link';
-import ThemeToggle from './ThemeToggle';
+// Server component that reads site data and renders the interactive navbar
+import NavbarClient from './NavbarClient';
 import fs from 'fs/promises';
 import path from 'path';
 
@@ -18,21 +18,5 @@ export default async function Navbar() {
     skills: 'Skills',
     contact: 'Contact',
   };
-  return (
-    <nav className="sticky top-0 z-50 flex items-center justify-between py-4 px-6 bg-brand-100 dark:bg-brand-900">
-      <Link href="/" className="text-xl font-semibold text-brand-700 dark:text-brand-200">
-        {site.title}
-      </Link>
-      <ul className="flex space-x-4">
-        {site.navOrder.map((item) => (
-          <li key={item}>
-            <Link href={item === 'home' ? '/' : `/${item}`} className="text-brand-700 dark:text-brand-200 hover:underline">
-              {titles[item] || item}
-            </Link>
-          </li>
-        ))}
-      </ul>
-      <ThemeToggle />
-    </nav>
-  );
+  return <NavbarClient site={site} titles={titles} />;
 }
