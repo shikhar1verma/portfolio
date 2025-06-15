@@ -1,0 +1,9 @@
+[
+  {
+    "slug": "acme-inc",
+    "company": "Acme Inc",
+    "role": "Software Engineer",
+    "summary": "Worked on cool stuff",
+    "tags": ["React", "Node.js"]
+  }
+]
