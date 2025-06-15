@@ -1,20 +1,20 @@
 {
-    "projects": [
+  "projects": [
+    {
+      "name": "",
+      "description": "",
+      "summary": "",
+      "image": "",
+      "technologies": [],
+      "bussiness-requirement": "",
+      "project-type": "Office | Personal | Client",
+      "project-link": "",
+      "project-subsections": [
         {
-            "name": "",
-            "description": "",
-            "summary": "",
-            "image": "",
-            "technologies": [],
-            "bussiness-requirement": "",
-            "project-type": "Office | Personal | Client",
-            "project-link": "", 
-            "project-subsections": [
-                {
-                    "name": "",
-                    "description": ""
-                }
-            ]
+          "name": "",
+          "description": ""
         }
-    ]
+      ]
+    }
+  ]
 }
