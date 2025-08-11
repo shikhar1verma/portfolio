@@ -3,6 +3,7 @@ import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
 import fs from 'fs/promises';
 import path from 'path';
+import VersionCheck from '@/components/VersionCheck';
 
 export async function generateMetadata() {
   const data = await fs.readFile(path.join(process.cwd(), 'content/site.json'), 'utf8');
@@ -20,6 +21,7 @@ export default function RootLayout({ children }) {
         <Navbar />
         <main className="flex-grow container mx-auto px-4">{children}</main>
         <Footer />
+        <VersionCheck />
       </body>
     </html>
   );
