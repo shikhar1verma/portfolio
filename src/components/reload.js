@@ -4,4 +4,5 @@ export function reloadPage() {
   }
 }
 
-export default { reloadPage }; 
+const reloadUtils = { reloadPage };
+export default reloadUtils; 

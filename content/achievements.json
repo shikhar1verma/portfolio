@@ -1,0 +1,19 @@
+[{
+    "slug": "edison-award",
+    "name": "Edison Award",
+    "summary": "Recognized for AI work in patent search.",
+    "year": 2020,
+    "links": {
+      "external": "https://example.com/oss-award"
+    }
+  },
+  {
+    "slug": "patent-application-published",
+    "name": "Published Patent Application",
+    "summary": "Patent application published for distinguished work in patent search through NLP.",
+    "year": 2023,
+    "links": {
+      "external": "https://example.com/techconf-keynote"
+    }
+  }
+]

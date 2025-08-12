@@ -1,0 +1,15 @@
+{
+  "name": "John Q. Example",
+  "tagline": "Principal Engineer & AI Builder",
+  "location": "Example City, Earth",
+  "experience_started_at": "2010-01-01",
+  "years_of_experience": null,
+  "about": "I build pragmatic systems that balance reliability, performance, and developer happiness. Over {{experience_years}}+ years I've led platform and product teams, from greenfield to large‑scale migrations. My work spans edge compute, ML‑assisted applications, and internal developer platforms. I care deeply about clear APIs, robust testing, and fast feedback loops. Outside of work I mentor engineers, write about strategy and architecture, and contribute to open source.",
+  "email": "john.example@example.com",
+  "social": {
+    "github": "https://github.com/johnqexample",
+    "linkedin": "https://www.linkedin.com/in/johnqexample/",
+    "twitter": "https://x.com/johnqexample"
+  },
+  "avatar": "/avatar.jpg"
+} 

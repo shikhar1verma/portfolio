@@ -1,0 +1,8 @@
+{
+  "languages": ["Go", "Rust", "Python", "TypeScript", "SQL"],
+  "frameworks": ["Next.js", "React", "Django", "Flask", "Node.js/Express", "gRPC"],
+  "testing": ["Jest", "Playwright", "Cypress"],
+  "cloud": ["Vercel", "AWS", "GCP", "Kubernetes", "Docker"],
+  "ml": ["PyTorch", "TensorFlow", "HuggingFace"],
+  "databases": ["PostgreSQL", "Redis", "MongoDB", "ClickHouse", "DuckDB"]
+} 

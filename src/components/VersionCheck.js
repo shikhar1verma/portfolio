@@ -9,9 +9,11 @@ const THIRTY_DAYS_MS = 30 * 24 * 60 * 60 * 1000;
 export default function VersionCheck() {
   useEffect(() => {
     let cancelled = false;
+    const intervalMs = process.env.NODE_ENV === 'test' ? 60 * 1000 : 5 * 60 * 1000;
 
     async function check() {
       try {
+        if (typeof document !== 'undefined' && document.hidden) return;
         const res = await fetch(`${BUILD_JSON_URL}?t=${Date.now()}`, {
           cache: 'no-store',
         });
@@ -46,7 +48,7 @@ export default function VersionCheck() {
     }
 
     check();
-    const id = setInterval(check, 60 * 1000);
+    const id = setInterval(check, intervalMs);
     return () => {
       cancelled = true;
       clearInterval(id);

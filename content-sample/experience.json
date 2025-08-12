@@ -1,0 +1,58 @@
+[
+  {
+    "slug": "mega-corp",
+    "company": "MegaCorp Cloud",
+    "location": "Remote",
+    "period": { "from": "2019-03", "to": "Present" },
+    "role": "Principal Engineer",
+    "overview": "Led multi‑region platform efforts, modernized the stack, and mentored 20+ engineers.",
+    "stack": ["Go", "Rust", "Typescript", "AWS", "Terraform"],
+    "highlights": [
+      "⚙️ Globally distributed cache — 15 ms p99 across 6 regions",
+      "🧬 Feature flags platform — 500M evaluations/day",
+      "🔐 Zero‑trust services — mutual TLS and fine‑grained policies"
+    ]
+  },
+  {
+    "slug": "quant-ai",
+    "company": "QuantAI Labs",
+    "location": "NYC, USA",
+    "period": { "from": "2015-06", "to": "2019-02" },
+    "role": "Senior Engineer",
+    "overview": "Built ML pipelines and realtime analytics powering trading insights.",
+    "stack": ["Python", "Kafka", "Spark", "Flink", "Redis"],
+    "highlights": [
+      "📊 Stream analytics — 2B events/day processing",
+      "🤖 Model lifecycle — training to canary deploy in under 10 minutes",
+      "🔄 Incremental backfills — 5 TB/day resilient ETL"
+    ]
+  },
+  {
+    "slug": "data-works",
+    "company": "DataWorks Inc.",
+    "location": "London, UK",
+    "period": { "from": "2013-01", "to": "2015-05" },
+    "role": "Software Engineer",
+    "overview": "Delivered APIs and ETL jobs for customer analytics platform.",
+    "stack": ["Node.js", "PostgreSQL", "Airflow", "Docker"],
+    "highlights": [
+      "🧱 Consolidated 12 services into 4 cohesive domains",
+      "🚀 Cut ETL time 60% with incremental loads",
+      "🔎 Improved observability with traces and SLOs"
+    ]
+  },
+  {
+    "slug": "start-io",
+    "company": "Start.io",
+    "location": "Remote",
+    "period": { "from": "2010-06", "to": "2012-12" },
+    "role": "Founding Engineer",
+    "overview": "Launched MVPs, owned CI/CD, and set coding standards.",
+    "stack": ["Ruby on Rails", "MySQL", "Heroku", "Redis"],
+    "highlights": [
+      "⚡ 0→1 platform launch in 8 weeks",
+      "🧪 Added comprehensive tests, reduced regressions by 70%",
+      "📈 Grew traffic from 0 to 100k MAU"
+    ]
+  }
+] 

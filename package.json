@@ -9,7 +9,8 @@
     "start": "next start",
     "lint": "next lint",
     "prepare": "husky install",
-    "test": "jest"
+    "test": "jest",
+    "setup": "node scripts/setup.js"
   },
   "dependencies": {
     "@heroicons/react": "^2.2.0",

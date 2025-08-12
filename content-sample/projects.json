@@ -1,0 +1,12 @@
+[
+  { "slug": "nebula-edge", "name": "Nebula Edge Platform", "summary": "Unified edge compute platform for real‑time AI inference (100k req/s).", "role": "Architect", "technologies": ["Next.js", "Rust", "gRPC", "Kubernetes", "PostgreSQL"], "links": { "live": "https://nebula.example.com" } },
+  { "slug": "atlas-studio", "name": "Atlas Studio", "summary": "Developer portal with golden paths and service scaffolding.", "role": "Tech Lead", "technologies": ["React", "Node.js", "GraphQL", "OpenAPI", "Docker"], "links": { "caseStudy": "/experience/mega-corp" } },
+  { "slug": "orion-search", "name": "Orion Search", "summary": "Semantic search across docs with hybrid vector/db retrieval.", "role": "Lead", "technologies": ["Next.js", "Python", "FastAPI", "Qdrant", "PostgreSQL"] },
+  { "slug": "centauri-observability", "name": "Centauri Observability", "summary": "Tracing + metrics + logs with SLO dashboards.", "role": "Engineer", "technologies": ["Go", "Tempo", "Loki", "Prometheus", "Grafana"] },
+  { "slug": "helios-billing", "name": "Helios Billing", "summary": "Usage‑based billing with proration and currency FX.", "role": "Engineer", "technologies": ["Django", "Celery", "Stripe", "Redis", "PostgreSQL"] },
+  { "slug": "apollo-cdp", "name": "Apollo CDP", "summary": "Customer data platform with identity resolution.", "role": "Engineer", "technologies": ["Node.js", "Kafka", "ClickHouse", "S3"] },
+  { "slug": "vega-mlops", "name": "Vega MLOps", "summary": "Model registry and deploy pipelines with canaries.", "role": "Engineer", "technologies": ["Python", "PyTorch", "MLflow", "Argo", "Kubernetes"] },
+  { "slug": "aurora-ui", "name": "Aurora UI", "summary": "Design system with accessible components and tokens.", "role": "Engineer", "technologies": ["React", "TypeScript", "Storybook", "Chromatic"] },
+  { "slug": "janus-gateway", "name": "Janus Gateway", "summary": "gRPC/REST gateway with authN/Z and rate limiting.", "role": "Engineer", "technologies": ["Go", "gRPC", "Envoy", "OPA"] },
+  { "slug": "polaris-insights", "name": "Polaris Insights", "summary": "Realtime BI with columnar storage and cubes.", "role": "Engineer", "technologies": ["Next.js", "DuckDB", "Cube.js", "PostgreSQL"] }
+] 

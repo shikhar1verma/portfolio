@@ -1,0 +1,26 @@
+[
+  {
+    "institution": "MIT",
+    "degree": "M.S. Computer Science",
+    "period": { "from": "2013", "to": "2015" },
+    "highlights": ["Research in distributed systems", "Teaching Assistant"]
+  },
+  {
+    "institution": "Stanford University",
+    "degree": "B.S. Computer Science",
+    "period": { "from": "2009", "to": "2013" },
+    "highlights": ["ACM ICPC Regionals", "Graduated with Honors"]
+  },
+  {
+    "institution": "Example High School",
+    "degree": "High School Diploma",
+    "period": { "from": "2005", "to": "2009" },
+    "highlights": ["Science Club", "Robotics Team Captain"]
+  },
+  {
+    "institution": "Example Middle School",
+    "degree": "Middle School",
+    "period": { "from": "2002", "to": "2005" },
+    "highlights": ["Math Olympiad", "School Newspaper"]
+  }
+] 

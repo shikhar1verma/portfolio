@@ -2,7 +2,7 @@
 
 // Responsive navbar with hamburger menu and dark-mode toggle
 
-import { useState } from 'react';
+import { useEffect, useRef, useState } from 'react';
 import Link from 'next/link';
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline';
 import { AnimatePresence, motion } from 'framer-motion';
@@ -10,8 +10,48 @@ import ThemeToggle from './ThemeToggle';
 
 export default function NavbarClient({ site, titles }) {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const panelRef = useRef(null);
+  const buttonRef = useRef(null);
 
   const toggleMenu = () => setIsMenuOpen((prev) => !prev);
+
+  useEffect(() => {
+    function onKeyDown(e) {
+      if (e.key === 'Escape') {
+        setIsMenuOpen(false);
+        buttonRef.current?.focus();
+        return;
+      }
+      if (e.key === 'Tab' && isMenuOpen && panelRef.current) {
+        const focusable = panelRef.current.querySelectorAll(
+          'a, button, [tabindex]:not([tabindex="-1"])'
+        );
+        const items = Array.from(focusable);
+        if (items.length === 0) return;
+        const first = items[0];
+        const last = items[items.length - 1];
+        const active = document.activeElement;
+        if (!e.shiftKey && active === last) {
+          e.preventDefault();
+          first.focus();
+        } else if (e.shiftKey && active === first) {
+          e.preventDefault();
+          last.focus();
+        }
+      }
+    }
+    if (isMenuOpen) {
+      document.addEventListener('keydown', onKeyDown);
+    }
+    return () => document.removeEventListener('keydown', onKeyDown);
+  }, [isMenuOpen]);
+
+  useEffect(() => {
+    if (isMenuOpen) {
+      const firstLink = panelRef.current?.querySelector('a, button');
+      firstLink?.focus();
+    }
+  }, [isMenuOpen]);
 
   return (
     <header className="w-full bg-white dark:bg-gray-900">
@@ -38,9 +78,12 @@ export default function NavbarClient({ site, titles }) {
         </nav>
         {/* Mobile menu button */}
         <button
+          ref={buttonRef}
           className="md:hidden flex items-center p-2 text-brand-700 dark:text-brand-200"
           onClick={toggleMenu}
           aria-label="Toggle menu"
+          aria-expanded={isMenuOpen}
+          aria-controls="mobile-menu"
         >
           {isMenuOpen ? <XMarkIcon className="h-6 w-6" /> : <Bars3Icon className="h-6 w-6" />}
         </button>
@@ -53,6 +96,8 @@ export default function NavbarClient({ site, titles }) {
             animate={{ height: 'auto', opacity: 1 }}
             exit={{ height: 0, opacity: 0 }}
             className="md:hidden bg-white dark:bg-gray-900 w-full"
+            id="mobile-menu"
+            ref={panelRef}
           >
             <nav className="flex flex-col space-y-4 p-4">
               {site.navOrder.map((item) => (

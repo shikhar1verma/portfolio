@@ -1,0 +1,12 @@
+[
+  { "slug": "oss-award", "name": "Open Source Excellence Award", "summary": "Recognized for leadership in the developer tools community.", "year": 2022, "links": { "external": "https://example.com/oss-award" } },
+  { "slug": "tech-conference-speaker", "name": "Keynote Speaker — TechConf", "summary": "Delivered keynote on building reliable AI systems.", "year": 2023, "links": { "external": "https://example.com/techconf-keynote" } },
+  { "slug": "best-paper", "name": "Best Paper — Systems Summit", "summary": "Awarded for paper on zero‑downtime migrations.", "year": 2021 },
+  { "slug": "patent-granted", "name": "Patent Granted", "summary": "Granted patent for adaptive edge routing.", "year": 2020 },
+  { "slug": "mentorship-recognition", "name": "Mentorship Recognition", "summary": "Honored for mentoring 30+ engineers to senior roles.", "year": 2024 },
+  { "slug": "hackathon-winner", "name": "Global Hackathon Winner", "summary": "Built a production‑ready prototype in 48 hours.", "year": 2019 },
+  { "slug": "community-builder", "name": "Community Builder", "summary": "Founded a 10k‑member engineering community.", "year": 2018 },
+  { "slug": "product-launch", "name": "Product Launch Champion", "summary": "Shipped platform powering 1M MAU in first quarter.", "year": 2022 },
+  { "slug": "security-champion", "name": "Security Champion", "summary": "Led secure‑by‑default adoption across services.", "year": 2021 },
+  { "slug": "reliability-hero", "name": "Reliability Hero", "summary": "Reduced incidents by 85% via SLOs and runbooks.", "year": 2023 }
+] 
