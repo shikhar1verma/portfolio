@@ -30,5 +30,36 @@
       "📦 Patent Data Pipeline — ingested 13.4 million USPTO patents weekly",
       "🤖 ML models — problem-statement detector & patent-sense summariser"
     ]
+  },
+  {
+    "slug": "cdac-cybersecurity",
+    "company": "Centre for Development of Advanced Computing (C-DAC)",
+    "location": "Mohali, India",
+    "period": { "from": "2017-06", "to": "2017-07" },
+    "role": "Summer Trainee",
+    "overview": "Completed 6-week Summer/Industrial Training program in Cyber Security with Python, gaining hands-on experience in ethical hacking, network security, and penetration testing fundamentals.",
+    "stack": ["Python", "Network Security", "Penetration Testing"],
+    "highlights": [
+      "🐍 Python Fundamentals — mastered core Python programming concepts for cybersecurity applications",
+      "🌐 Socket Programming — learned different socket implementations for various network services",
+      "🔒 Penetration Testing — gained practical experience in server attack vectors and security hardening",
+      "💥 Payload Analysis — studied how malicious payloads operate and affect server infrastructure",
+      "📡 Packet Capturing — acquired foundational skills in network traffic analysis and monitoring"
+    ]
+  },
+  {
+    "slug": "cdac-linux",
+    "company": "Centre for Development of Advanced Computing (C-DAC)",
+    "location": "Mohali, India",
+    "period": { "from": "2016-06", "to": "2016-07" },
+    "role": "Summer Trainee",
+    "overview": "First-ever summer training program experience in Linux System Administration. Gained comprehensive understanding of Linux architecture and system administration fundamentals.",
+    "stack": ["Linux", "System Administration", "Server Configuration"],
+    "highlights": [
+      "🏗️ Linux Architecture — mastered filesystem structure and core components of Linux systems",
+      "🌐 Server Configuration — learned to configure FTP, DNS, DHCP and other essential servers",
+      "💾 LVM Management — gained expertise in Logical Volume Manager for storage administration",
+      "👥 User Management — implemented user privilege systems and access control mechanisms"
+    ]
   }
 ]
