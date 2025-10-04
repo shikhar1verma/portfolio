@@ -1,5 +1,5 @@
 {
-  "title": "Shikhar Verma · Backend & AI Engineer",
-  "description": "Portfolio & résumé of Shikhar Verma — building scalable, test-driven products and exploring LLM engineering.",
-  "navOrder": ["home", "about", "experience", "projects", "achievements", "education", "skills"]
+  "title": "Shikhar Verma",
+  "description": "Portfolio & résumé of Shikhar Verma — Backend Engineer building scalable, AI-powered systems with Django expertise and production-ready LLM integrations.",
+  "navOrder": ["home", "about", "experience", "projects", "achievements", "skills"]
 }

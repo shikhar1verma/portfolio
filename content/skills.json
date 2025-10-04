@@ -1,8 +1,102 @@
 {
-  "languages": ["Python", "JavaScript (ES6)", "SQL"],
-  "frameworks": ["Django", "Django REST Framework", "Node.js/Express", "Flask", "Vue", "Svelte"],
-  "testing": ["Jest", "Cypress"],
-  "cloud": ["Vercel", "AWS EC2", "Docker"],
-  "ml": ["TensorFlow", "Keras", "NLTK"],
-  "databases": ["PostgreSQL", "MongoDB", "MySQL", "ElasticSearch"]
+  "core_expertise": {
+    "backend": {
+      "name": "Backend Development",
+      "icon": "⚙️",
+      "skills": [
+        { "name": "Python", "projects": ["PQAI", "Auto Eatventure", "Code Architecture Mapper", "ITBD Experience"], "proficiency": "expert" },
+        { "name": "Django", "projects": ["ITBD Experience"], "proficiency": "expert" },
+        { "name": "Django REST Framework", "projects": ["ITBD Experience"], "proficiency": "expert" },
+        { "name": "FastAPI", "projects": ["Code Architecture Mapper", "Document AI Chat"], "proficiency": "advanced" },
+        { "name": "Flask", "projects": ["PQAI"], "proficiency": "advanced" },
+        { "name": "Node.js/Express", "projects": [], "proficiency": "intermediate" }
+      ]
+    },
+    "ai_llm": {
+      "name": "AI/LLM Engineering",
+      "icon": "🤖",
+      "skills": [
+        { "name": "LangGraph", "projects": ["Code Architecture Mapper", "LangGraph Certification"], "proficiency": "advanced" },
+        { "name": "LangChain", "projects": ["LangChain Certification"], "proficiency": "advanced" },
+        { "name": "RAG (Retrieval-Augmented Generation)", "projects": ["Document AI Chat", "LangChain Certification"], "proficiency": "advanced" },
+        { "name": "Prompt Engineering", "projects": ["Code Architecture Mapper", "Document AI Chat", "Generative AI Certification"], "proficiency": "advanced" },
+        { "name": "Google Gemini AI", "projects": ["Code Architecture Mapper", "Document AI Chat"], "proficiency": "intermediate" },
+        { "name": "LLM Agents", "projects": ["Code Architecture Mapper", "LangGraph Certification"], "proficiency": "advanced" },
+        { "name": "Multi-Agent Systems", "projects": ["Code Architecture Mapper", "LangGraph Certification"], "proficiency": "intermediate" }
+      ]
+    },
+    "frontend": {
+      "name": "Frontend Development",
+      "icon": "🎨",
+      "skills": [
+        { "name": "Next.js", "projects": ["Code Architecture Mapper", "Document AI Chat", "Portfolio Generator"], "proficiency": "advanced" },
+        { "name": "React", "projects": ["Code Architecture Mapper", "Document AI Chat", "Portfolio Generator"], "proficiency": "advanced" },
+        { "name": "TypeScript", "projects": ["Code Architecture Mapper", "Portfolio Generator"], "proficiency": "intermediate" },
+        { "name": "Tailwind CSS", "projects": ["Document AI Chat", "Portfolio Generator"], "proficiency": "advanced" },
+        { "name": "JavaScript (ES6)", "projects": [], "proficiency": "advanced" },
+        { "name": "Vue", "projects": [], "proficiency": "intermediate" },
+        { "name": "Svelte", "projects": [], "proficiency": "intermediate" },
+        { "name": "CSS3", "projects": ["CSS Challenge"], "proficiency": "advanced" }
+      ]
+    }
+  },
+  "databases": {
+    "name": "Databases & Storage",
+    "icon": "💾",
+    "skills": [
+      { "name": "PostgreSQL", "projects": ["Code Architecture Mapper", "Document AI Chat", "ITBD Experience"], "proficiency": "expert" },
+      { "name": "MongoDB", "projects": ["ITBD Experience"], "proficiency": "advanced" },
+      { "name": "MySQL", "projects": [], "proficiency": "intermediate" },
+      { "name": "Elasticsearch", "projects": ["PQAI"], "proficiency": "intermediate" },
+      { "name": "pgvector", "projects": ["Document AI Chat"], "proficiency": "intermediate" }
+    ]
+  },
+  "ml_ai": {
+    "name": "Machine Learning & AI",
+    "icon": "🧠",
+    "skills": [
+      { "name": "Machine Learning", "projects": ["PQAI", "Generative AI Certification"], "proficiency": "intermediate" },
+      { "name": "Natural Language Processing", "projects": ["PQAI", "Patent Application"], "proficiency": "intermediate" },
+      { "name": "TensorFlow", "projects": [], "proficiency": "beginner" },
+      { "name": "Keras", "projects": [], "proficiency": "beginner" },
+      { "name": "Computer Vision", "projects": ["Auto Eatventure"], "proficiency": "intermediate" },
+      { "name": "OpenCV", "projects": ["Auto Eatventure"], "proficiency": "intermediate" }
+    ]
+  },
+  "devops_tools": {
+    "name": "DevOps & Cloud",
+    "icon": "☁️",
+    "skills": [
+      { "name": "Docker", "projects": ["PQAI", "Code Architecture Mapper", "Document AI Chat"], "proficiency": "intermediate" },
+      { "name": "AWS EC2", "projects": [], "proficiency": "beginner" },
+      { "name": "Vercel", "projects": ["Portfolio Generator"], "proficiency": "intermediate" },
+      { "name": "Git", "projects": [], "proficiency": "advanced" }
+    ]
+  },
+  "other_tools": {
+    "name": "Tools & Technologies",
+    "icon": "🛠️",
+    "skills": [
+      { "name": "Celery", "projects": ["ITBD Experience"], "proficiency": "intermediate" },
+      { "name": "SQL", "projects": ["SQL Certification"], "proficiency": "advanced" },
+      { "name": "OpenAPI", "projects": ["ITBD Experience"], "proficiency": "intermediate" },
+      { "name": "Jest", "projects": ["Portfolio Generator"], "proficiency": "intermediate" },
+      { "name": "Cypress", "projects": [], "proficiency": "beginner" },
+      { "name": "Android Debug Bridge (ADB)", "projects": ["Auto Eatventure"], "proficiency": "intermediate" },
+      { "name": "Mermaid.js", "projects": ["Code Architecture Mapper"], "proficiency": "intermediate" },
+      { "name": "Grimp", "projects": ["Code Architecture Mapper"], "proficiency": "intermediate" },
+      { "name": "Tree-sitter", "projects": ["Code Architecture Mapper"], "proficiency": "intermediate" }
+    ]
+  },
+  "methodologies": {
+    "name": "Methodologies & Concepts",
+    "icon": "📋",
+    "skills": [
+      { "name": "System Architecture", "projects": ["ITBD Experience"], "proficiency": "expert" },
+      { "name": "Microservices", "projects": ["ITBD Experience"], "proficiency": "advanced" },
+      { "name": "API Design", "projects": ["ITBD Experience"], "proficiency": "expert" },
+      { "name": "Performance Optimization", "projects": ["ITBD Experience"], "proficiency": "advanced" },
+      { "name": "Algorithms & Data Structures", "projects": ["LeetCode Challenge"], "proficiency": "advanced" }
+    ]
+  }
 }

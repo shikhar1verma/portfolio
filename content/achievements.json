@@ -1,19 +1,240 @@
-[{
-    "slug": "edison-award",
-    "name": "Edison Award",
-    "summary": "Recognized for AI work in patent search.",
-    "year": 2020,
+[
+  {
+    "slug": "edison-award-2019",
+    "name": "Edison Award Silver - Applied Technology",
+    "category": "Award",
+    "summary": "Won Silver Edison Award in Applied Technology category for AI-powered patent search innovation.",
+    "description": "Recognized in the prestigious Edison Awards 2019 for developing Catalyst, an AI-powered patent search platform. Catalyst enables researchers and inventors to tap into the vast, but underutilized and difficult to comprehend, knowledge existing in patents and gather ideas on how to devise better solutions and products faster. The tool obviates the need for researchers to gain legal expertise to search and understand patents written in a convoluted manner.",
+    "year": 2019,
+    "achievement_type": "Industry Recognition",
+    "category_label": "🏆 Awards & Recognition",
+    "icon": "🏆",
+    "color": "gold",
+    "metrics": [
+      "Edison Awards 2019 Winner",
+      "Applied Technology Category",
+      "Artificial + Human Intelligence",
+      "Silver Prize"
+    ],
     "links": {
-      "external": "https://example.com/oss-award"
-    }
+      "official": "https://edisonawards.com/",
+      "official_wayback": "https://web.archive.org/web/20240524095307/https://edisonawards.com/2019-winners/",
+      "tool": "https://www.greyb.com/catalyst/",
+      "video": "https://www.youtube.com/watch?v=AB-LSmmxfQ4"
+    },
+    "tags": ["AI", "Machine Learning", "Patent Search", "NLP", "Innovation Award"]
   },
   {
     "slug": "patent-application-published",
-    "name": "Published Patent Application",
-    "summary": "Patent application published for distinguished work in patent search through NLP.",
+    "name": "Published Patent Application - AI/ML Innovation",
+    "category": "Award",
+    "summary": "Patent application published for innovative method to identify objectives from patent documents using machine learning.",
+    "description": "Published patent application for a novel method and system for identifying objectives from patent documents using machine learning and natural language processing. The invention presents an innovative approach to automatically extract and identify key objectives from complex patent texts, significantly improving patent analysis efficiency and accuracy. This work demonstrates advanced capabilities in AI/ML, particularly in applying statistical significance analysis and feature engineering to legal document processing.",
     "year": 2023,
+    "achievement_type": "Intellectual Property",
+    "category_label": "🏆 Awards & Recognition",
+    "icon": "📄",
+    "color": "blue",
+    "metrics": [
+      "US Patent Application",
+      "Application No: US20230161800A1",
+      "Published in 2023",
+      "AI/ML Patent"
+    ],
+    "patent_details": {
+      "application_number": "US20230161800A1",
+      "title": "Method and system to identify objectives from patent documents",
+      "abstract": "A method and a system for identifying an objective from documents is disclosed. In some embodiment, the method includes determining a correlation of each of a plurality of keywords extracted from a set of documents with respect to each class within a set of predefined classes. The method further includes determining a first set of keywords from the plurality of keywords. The method further includes identifying a set of data samples comprising a first plurality of sentences and a second plurality of sentences. The method further includes computing a statistical significance value of each keyword in the first set of keywords with respect to the first plurality of sentences. The method further includes generating a first set of features by discarding at least one keyword from the first set of keywords. The method further includes training a machine learning model to identify an objective of a document.",
+      "jurisdiction": "United States"
+    },
     "links": {
-      "external": "https://example.com/techconf-keynote"
-    }
+      "google_patents": "https://patents.google.com/patent/US20230161800A1"
+    },
+    "tags": ["Patent", "Machine Learning", "NLP", "Innovation", "AI Research"]
+  },
+  {
+    "slug": "leetcode-319-day-streak",
+    "name": "LeetCode 319-Day Coding Streak",
+    "category": "Challenge",
+    "summary": "Maintained a remarkable 319-day continuous coding streak on LeetCode, solving 400+ algorithmic problems.",
+    "description": "Demonstrated exceptional dedication and consistency by maintaining a 319-day continuous coding streak on LeetCode from June 23, 2024 to May 8, 2025. Solved over 400 algorithmic problems spanning data structures, algorithms, dynamic programming, and system design. This achievement showcases strong problem-solving abilities, algorithmic thinking, and unwavering commitment to continuous learning and skill development. The streak includes solving problems across all difficulty levels and consistently engaging with the platform every single day for nearly a year.",
+    "year": 2024,
+    "achievement_type": "Personal Challenge",
+    "category_label": "💪 Coding Challenges",
+    "icon": "💻",
+    "color": "orange",
+    "metrics": [
+      "319 continuous days",
+      "400+ problems solved",
+      "217-day max streak in 2024",
+      "235 active days in 2024"
+    ],
+    "challenge_details": {
+      "platform": "LeetCode",
+      "start_date": "2024-06-23",
+      "end_date": "2025-05-08",
+      "total_days": 319,
+      "problems_solved": "400+",
+      "consistency": "Daily practice without breaks"
+    },
+    "links": {
+      "profile": "https://leetcode.com/u/shikhar1verma/"
+    },
+    "tags": ["LeetCode", "DSA", "Algorithms", "Problem Solving", "Consistency"]
+  },
+  {
+    "slug": "css-36-day-challenge",
+    "name": "20 Days CSS Challenge (Completed in 36 Days)",
+    "category": "Challenge",
+    "summary": "Completed comprehensive CSS deep-dive challenge, mastering advanced CSS concepts through consistent daily practice.",
+    "description": "Completed an intensive self-initiated CSS challenge documented on LinkedIn under #20DaysCSSChallenge. While the original goal was 20 days, the commitment to thorough learning led to completing it in 36 days, demonstrating dedication to mastery over speed. This deep dive into CSS went beyond basic documentation and trial-and-error approaches, exploring advanced concepts, modern techniques, and best practices. The challenge involved daily practice, public accountability through LinkedIn posts, and building a solid foundation in CSS that transformed approach to web development.",
+    "year": 2023,
+    "achievement_type": "Personal Challenge",
+    "category_label": "💪 Coding Challenges",
+    "icon": "🎨",
+    "color": "purple",
+    "metrics": [
+      "36 days of focused learning",
+      "20+ daily posts on LinkedIn",
+      "Advanced CSS mastery",
+      "Public learning journey"
+    ],
+    "challenge_details": {
+      "platform": "LinkedIn",
+      "hashtag": "#20DaysCSSChallenge",
+      "duration_days": 36,
+      "year_completed": 2023,
+      "approach": "Deep dive into CSS fundamentals and advanced concepts",
+      "outcome": "Transformed from trial-and-error to systematic understanding"
+    },
+    "links": {
+      "completion_post": "https://www.linkedin.com/posts/shikhar1verma_20daycsschallenge-20dayscsschallenge-css-activity-7045014592598487040-HoYt"
+    },
+    "tags": ["CSS", "Frontend", "Web Development", "Learning", "Public Accountability"]
+  },
+  {
+    "slug": "langgraph-certification",
+    "name": "Introduction to LangGraph - LangChain Academy",
+    "category": "Certification",
+    "summary": "Completed comprehensive LangGraph course covering agentic and multi-agent applications, state management, and production deployment.",
+    "description": "Successfully completed the official LangChain Academy course on LangGraph - a framework for building agentic and multi-agent applications. The comprehensive 6-hour course covered 54 lessons across 6 modules, including graph fundamentals, state and memory management, human-in-the-loop workflows, parallelization, long-term memory, and production deployment strategies. LangGraph is a low-level, controllable orchestration framework for complex agentic systems, providing better precision and control compared to traditional agent frameworks. This certification demonstrates proficiency in building production-ready AI agents with advanced features like streaming, breakpoints, sub-graphs, and the LangGraph Platform.",
+    "year": 2025,
+    "achievement_type": "Professional Certification",
+    "category_label": "📜 Certifications",
+    "icon": "🎓",
+    "color": "blue",
+    "metrics": [
+      "54 lessons completed",
+      "6 hours of video content",
+      "6 modules mastered",
+      "Official LangChain certification"
+    ],
+    "certification_details": {
+      "provider": "LangChain Academy",
+      "course_name": "Foundation: Introduction to LangGraph",
+      "completion_date": "2025-09-17",
+      "certificate_id": "uit14s3qzv",
+      "duration": "6 hours",
+      "modules": 6,
+      "lessons": 54,
+      "expiry": "No expiry date",
+      "level": "Foundation"
+    },
+    "skills": [
+      "LangGraph",
+      "LangChain",
+      "LLM Orchestration",
+      "Observability for LLMs",
+      "LLM Agents",
+      "Multi-Agent Systems",
+      "State Management",
+      "Production Deployment"
+    ],
+    "links": {
+      "certificate": "https://academy.langchain.com/certificates/uit14s3qzv",
+      "course": "https://academy.langchain.com/courses/intro-to-langgraph"
+    },
+    "tags": ["LangGraph", "LangChain", "AI Agents", "Multi-Agent", "LLM", "Certification"]
+  },
+  {
+    "slug": "generative-ai-llms-coursera",
+    "name": "Generative AI with Large Language Models",
+    "category": "Certification",
+    "summary": "Completed comprehensive course on generative AI fundamentals, LLM training, fine-tuning, and deployment taught by AWS AI practitioners.",
+    "description": "Successfully completed the Generative AI with Large Language Models course by DeepLearning.AI and AWS on Coursera. This course provided foundational knowledge and practical skills on how generative AI works, covering the complete LLM lifecycle from pre-training to fine-tuning and deployment. Learned cutting-edge techniques including instruction fine-tuning, RLHF (Reinforcement Learning from Human Feedback), parameter-efficient fine-tuning (PEFT), and model optimization strategies. The course featured instruction from expert AWS AI practitioners who actively build and deploy AI in real-world business use cases, providing insights into how companies create value with generative AI technology.",
+    "year": 2025,
+    "achievement_type": "Professional Certification",
+    "category_label": "📜 Certifications",
+    "icon": "🎓",
+    "color": "purple",
+    "metrics": [
+      "DeepLearning.AI + AWS course",
+      "LLM lifecycle mastery",
+      "Industry expert instruction",
+      "Practical deployment skills"
+    ],
+    "certification_details": {
+      "provider": "Coursera (DeepLearning.AI & AWS)",
+      "course_name": "Generative AI with Large Language Models",
+      "completion_date": "2025-08",
+      "platform": "Coursera",
+      "instructors": "AWS AI Practitioners",
+      "level": "Intermediate"
+    },
+    "skills": [
+      "Responsible AI",
+      "Machine Learning",
+      "Applied Machine Learning",
+      "Natural Language Processing",
+      "Large Language Modeling",
+      "Generative AI",
+      "Prompt Engineering",
+      "Fine-tuning",
+      "RLHF"
+    ],
+    "links": {
+      "course": "https://www.coursera.org/learn/generative-ai-with-llms"
+    },
+    "tags": ["Generative AI", "LLMs", "AWS", "DeepLearning.AI", "Machine Learning", "Certification"]
+  },
+  {
+    "slug": "langchain-llm-app-development",
+    "name": "LangChain for LLM Application Development",
+    "category": "Certification",
+    "summary": "Learned LangChain framework directly from creator Harrison Chase, covering RAG, agents, memory, and building production LLM applications.",
+    "description": "Successfully completed the LangChain for LLM Application Development course by DeepLearning.AI, taught directly by Harrison Chase, the creator of the LangChain framework. This hands-on course covered essential concepts for building production LLM applications including applying LLMs to proprietary data, building personal assistants and specialized chatbots, and implementing advanced patterns like Retrieval-Augmented Generation (RAG). Learned to use agents for dynamic tool selection, chained calls for complex workflows, and memory systems to maintain context across conversations. The course provided practical experience in expanding LLM use cases beyond simple prompt-response patterns to create sophisticated, context-aware AI applications.",
+    "year": 2025,
+    "achievement_type": "Professional Certification",
+    "category_label": "📜 Certifications",
+    "icon": "🎓",
+    "color": "green",
+    "metrics": [
+      "Taught by LangChain creator",
+      "RAG implementation",
+      "Agent & memory systems",
+      "Production app patterns"
+    ],
+    "certification_details": {
+      "provider": "DeepLearning.AI",
+      "course_name": "LangChain for LLM Application Development",
+      "completion_date": "2025-06",
+      "certificate_id": "31de51f3-5c3b-47ed-8dfe-5d5c67ab6eef",
+      "instructor": "Harrison Chase (LangChain Creator)",
+      "level": "Intermediate"
+    },
+    "skills": [
+      "LangChain",
+      "Retrieval-Augmented Generation (RAG)",
+      "Prompt Engineering",
+      "LLM Agents",
+      "Memory Systems",
+      "Chatbot Development",
+      "Vector Databases"
+    ],
+    "links": {
+      "certificate": "https://learn.deeplearning.ai/accomplishments/31de51f3-5c3b-47ed-8dfe-5d5c67ab6eef",
+      "course": "https://www.deeplearning.ai/short-courses/langchain-for-llm-application-development/"
+    },
+    "tags": ["LangChain", "RAG", "LLM Applications", "DeepLearning.AI", "Chatbots", "Certification"]
   }
 ]

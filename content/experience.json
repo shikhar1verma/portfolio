@@ -3,32 +3,38 @@
     "slug": "itbd",
     "company": "Innovation Technology By Design (TeamGPS)",
     "location": "Remote",
-    "period": { "from": "2022-03", "to": "Present" },
-    "role": "Backend Lead",
-    "overview": "Architecting KPI & performance-management platform used by 150+ MSPs; led feature roadmap and scalability initiatives.",
-    "stack": ["Python", "Django", "Celery", "PostgreSQL", "React"],
+    "period": { "from": "2021-10", "to": "Present" },
+    "role": "Backend Lead Engineer",
+    "type": "professional",
+    "overview": "Leading backend architecture for comprehensive employee performance & engagement platform serving 150+ MSPs with 8,000+ users. Built scalable microservices handling 80k+ daily data points while driving feature roadmap and platform scalability initiatives.",
+    "stack": ["Python", "Django", "Celery", "PostgreSQL", "MongoDB", "OpenAPI", "Microsoft Teams", "Outlook Integration"],
     "highlights": [
-      "⚡ KPI Manager — central registry, Excel bulk-upload, trend APIs (–90 % manual onboarding)",
-      "📈 Scorecards — 100 k+ data points/day, role & date filters",
-      "🌐 Accountability Chart — 500-node org chart rendered in 70 ms",
-      "💳 Billing Automation — seat-based subscription with fx sync, invoice PDFs",
-      "🤖 AI Utilities — LLM-based KPI anomaly detector prototype"
+      "GPS Genie AI — AI assistant for employee activity summarization, deployed to 10+ companies in closed beta with LLM-powered insights",
+      "Social Feed & Rewards Platform — Employee engagement system with Tango Card integration; onboarded 100+ companies, 7,000+ employees driving ≈30,000 monthly shout-outs with multi-currency wallets and auto-billing",
+      "1:1 & Group Meetings Module — Structured meeting platform with .ics Outlook sync, private notes, and agendas; facilitated 200,000+ meetings for 1,000+ managers/ICs",
+      "Real-time KPI & Scorecard Service — Python microservice with MongoDB ingesting 80,000+ datapoints/day from ConnectWise/Kaseya APIs; reduced dashboard latency from 20-40s to <1s across 150+ tenants",
+      "Performance Management Suite — Quarterly/yearly review system processing 1,500+ reviews/quarter for 30+ tenants, directly feeding promotion and compensation decisions",
+      "Public API Platform — OpenAPI-compliant system with key management and versioning, securing 8,000+ users with hybrid ACL/RBAC access control",
+      "Performance Optimization — Used Silk profiling and targeted PostgreSQL indexing to cut key report times from 8-10s to <500ms and main page loads from 3s to ~250ms",
+      "Accountability Chart System — Interactive org chart supporting 500+ nodes with role/responsibility mapping, rendered in 70ms for seamless navigation",
+      "Enterprise Logging & Observability — Built Splunk pipelines and dashboards for GB-scale logging, enabling proactive issue detection and resolution"
     ]
   },
   {
     "slug": "greyb",
     "company": "GreyB Services",
     "location": "Mohali, India",
-    "period": { "from": "2018-07", "to": "2022-02" },
+    "period": { "from": "2018-07", "to": "2021-09" },
     "role": "Software Developer",
+    "type": "professional",
     "overview": "Built patent-search and analytics products; specialised in full-stack JavaScript & Python with ML pipelines.",
     "stack": ["Python", "Flask", "Node.js", "Svelte", "Vue", "MongoDB", "MySQL"],
     "highlights": [
-      "🔍 PQAI — AI-assisted invention search in partnership with AT&T; used daily by 100s of attorneys",
-      "🔮 Catalyst — future-tech patent analytics for 50+ clients",
-      "📚 NPLSE — retrieved 13 hard-to-index research databases, cutting search time 3 weeks → 3 days",
-      "📦 Patent Data Pipeline — ingested 13.4 million USPTO patents weekly",
-      "🤖 ML models — problem-statement detector & patent-sense summariser"
+      "PQAI — AI-assisted invention search in partnership with AT&T; used daily by 100s of attorneys",
+      "Catalyst — future-tech patent analytics for 50+ clients",
+      "NPLSE — retrieved 13 hard-to-index research databases, cutting search time 3 weeks → 3 days",
+      "Patent Data Pipeline — ingested 13.4 million USPTO patents weekly",
+      "ML models — problem-statement detector & patent-sense summariser"
     ]
   },
   {
@@ -37,14 +43,15 @@
     "location": "Mohali, India",
     "period": { "from": "2017-06", "to": "2017-07" },
     "role": "Summer Trainee",
+    "type": "training",
     "overview": "Completed 6-week Summer/Industrial Training program in Cyber Security with Python, gaining hands-on experience in ethical hacking, network security, and penetration testing fundamentals.",
     "stack": ["Python", "Network Security", "Penetration Testing"],
     "highlights": [
-      "🐍 Python Fundamentals — mastered core Python programming concepts for cybersecurity applications",
-      "🌐 Socket Programming — learned different socket implementations for various network services",
-      "🔒 Penetration Testing — gained practical experience in server attack vectors and security hardening",
-      "💥 Payload Analysis — studied how malicious payloads operate and affect server infrastructure",
-      "📡 Packet Capturing — acquired foundational skills in network traffic analysis and monitoring"
+      "Python Fundamentals — mastered core Python programming concepts for cybersecurity applications",
+      "Socket Programming — learned different socket implementations for various network services",
+      "Penetration Testing — gained practical experience in server attack vectors and security hardening",
+      "Payload Analysis — studied how malicious payloads operate and affect server infrastructure",
+      "Packet Capturing — acquired foundational skills in network traffic analysis and monitoring"
     ]
   },
   {
@@ -53,13 +60,14 @@
     "location": "Mohali, India",
     "period": { "from": "2016-06", "to": "2016-07" },
     "role": "Summer Trainee",
+    "type": "training",
     "overview": "First-ever summer training program experience in Linux System Administration. Gained comprehensive understanding of Linux architecture and system administration fundamentals.",
     "stack": ["Linux", "System Administration", "Server Configuration"],
     "highlights": [
-      "🏗️ Linux Architecture — mastered filesystem structure and core components of Linux systems",
-      "🌐 Server Configuration — learned to configure FTP, DNS, DHCP and other essential servers",
-      "💾 LVM Management — gained expertise in Logical Volume Manager for storage administration",
-      "👥 User Management — implemented user privilege systems and access control mechanisms"
+      "Linux Architecture — mastered filesystem structure and core components of Linux systems",
+      "Server Configuration — learned to configure FTP, DNS, DHCP and other essential servers",
+      "LVM Management — gained expertise in Logical Volume Manager for storage administration",
+      "User Management — implemented user privilege systems and access control mechanisms"
     ]
   }
 ]

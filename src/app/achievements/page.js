@@ -1,16 +1,27 @@
 import fs from 'fs/promises';
 import path from 'path';
-import Link from 'next/link';
+import AchievementsClient from './AchievementsClient';
 
 export async function generateMetadata() {
-  return { title: 'Achievements', description: 'Awards, recognitions, and notable milestones.' };
+  return { 
+    title: 'Achievements - Shikhar Verma', 
+    description: 'Awards, coding challenges, patents, and professional milestones showcasing dedication to innovation and continuous learning.' 
+  };
+}
+
+async function readJsonFallback(primaryRelative, fallbackRelative) {
+  try {
+    const data = await fs.readFile(path.join(process.cwd(), primaryRelative), 'utf8');
+    return JSON.parse(data);
+  } catch {
+    const data = await fs.readFile(path.join(process.cwd(), fallbackRelative), 'utf8');
+    return JSON.parse(data);
+  }
 }
 
 async function getAchievements() {
   try {
-    const data = await fs.readFile(path.join(process.cwd(), 'content/achievements.json'), 'utf8');
-    const achievements = JSON.parse(data);
-    return Array.isArray(achievements) ? achievements : [];
+    return await readJsonFallback('content/achievements.json', 'content-sample/achievements.json');
   } catch {
     return [];
   }
@@ -26,27 +37,5 @@ export default async function AchievementsPage() {
       </section>
     );
   }
-  return (
-    <section className="py-8 space-y-6">
-      <h1 className="text-2xl font-bold">Achievements</h1>
-      <div className="grid md:grid-cols-2 gap-4">
-        {achievements.map((ach) => (
-          <div key={ach.slug} className="p-4 border border-gray-200 dark:border-gray-700 rounded-md">
-            <h2 className="text-xl font-semibold">{ach.name}</h2>
-            <p>{ach.summary}</p>
-            <div className="flex items-center gap-4">
-              <Link href={`/achievements/${ach.slug}`} className="link-muted">
-                View details →
-              </Link>
-              {ach.links?.external && (
-                <a href={ach.links.external} className="link-muted" target="_blank" rel="noopener noreferrer">
-                  External link ↗
-                </a>
-              )}
-            </div>
-          </div>
-        ))}
-      </div>
-    </section>
-  );
+  return <AchievementsClient achievements={achievements} />;
 } 

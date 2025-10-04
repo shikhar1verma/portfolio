@@ -1,4 +1,4 @@
-const dateFormat = require('../../../lib/dateFormat');
+import dateFormat from '../../../lib/dateFormat.js';
 
 describe('dateFormat', () => {
   test('formats yyyy-mm-dd to short month and year', () => {

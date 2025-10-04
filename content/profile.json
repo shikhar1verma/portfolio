@@ -1,10 +1,10 @@
 {
   "name": "Shikhar Verma",
-  "tagline": "Backend & AI Engineer",
+  "tagline": "Backend Engineer building AI-powered systems",
   "location": "India",
   "experience_started_at": "2018-06-03",
   "years_of_experience": null,
-  "about": "Backend engineer with {{experience_years}}+ years experience in Django/DRF and data pipelines. Passionate about shrinking human effort through scalable, test-driven web apps and transitioning into AI / LLM engineering.",
+  "about": "Backend engineer with {{experience_years}}+ years experience in Django/DRF and data pipelines. Passionate about shrinking human effort through scalable, test-driven web apps with keen interest in AI/LLM engineering, having built production AI systems including multi-agent workflows, RAG applications, and patent intelligence platforms.",
   "email": "shikhar1verma@gmail.com",
   "social": {
     "github": "https://github.com/shikhar1verma",

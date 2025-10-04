@@ -1,18 +1,209 @@
 [
   {
-    "slug": "pqai",
-    "name": "PQAI",
-    "summary": "Open AI-assisted search engine to find similar inventions quickly.",
-    "role": "Full-stack Engineer",
-    "technologies": ["Flask", "Vue", "Elasticsearch", "TensorFlow"],
-    "links": { "live": "https://pqai.example.com" }
+    "slug": "code-architecture-mapper",
+    "name": "Code Architecture Mapper: Revolutionary AI-Powered Repository Analysis",
+    "summary": "Groundbreaking multi-agent AI system using LangGraph workflows for automated code analysis. Self-correcting AI that generates architecture documentation and Mermaid diagrams with 95%+ accuracy.",
+    "oneLiner": "Built revolutionary AI agent orchestration platform with LangGraph, combining hybrid static analysis and self-correcting AI to help understand the code architecture.",
+    "role": "AI/LLM Engineer & Full-stack Architect",
+    "duration": "Ongoing",
+    "type": ["AI/LLM", "LangGraph", "Multi-Agent", "Featured"],
+    "technologies": ["LangGraph", "FastAPI", "Next.js", "Google Gemini AI", "Grimp", "Tree-sitter", "PostgreSQL", "TypeScript", "Mermaid.js", "Docker"],
+    "metrics": [
+      "Multi-agent AI orchestration",
+      "Self-correcting diagram generation",
+      "95%+ syntax validation accuracy",
+      "Production-ready deployment"
+    ],
+    "links": { 
+      "live": "https://cam.theshikhar.com",
+      "github": "https://github.com/shikhar1verma/code-architecture-mapper"
+    },
+    "media": {
+      "thumbnail": null,
+      "demo_image": null,
+      "demo_gif": "https://raw.githubusercontent.com/shikhar1verma/code-architecture-mapper/main/assets/cam-demo.gif",
+      "video_url": "https://youtu.be/TSzqqpr4jww",
+      "screenshots": [
+
+      ]
+    },
+    "featured": true,
+    "problem": "Traditional code analysis tools provide basic static analysis but lack intelligent insights about software architecture. Developers spend hours manually creating documentation and architecture diagrams. Existing tools cannot understand complex relationships between components or generate meaningful architectural insights. Manual diagram creation is error-prone and time-consuming, often resulting in outdated or inaccurate documentation.",
+    "solution": "Developed revolutionary multi-agent AI system using LangGraph workflows with specialized agents working in concert. Built hybrid analysis engine combining Grimp (Python), Tree-sitter (JS/TS), and NetworkX (graph theory) for maximum accuracy. Created self-correcting AI that generates Mermaid diagrams and automatically fixes syntax errors through iterative validation. Implemented intelligent fallback strategies ensuring analysis always succeeds, with progressive enhancement from rule-based to AI-powered generation.",
+    "results": "Successfully deployed production-ready platform with live demo at cam.theshikhar.com. Achieved 95%+ accuracy in syntax validation and diagram generation through self-correcting AI systems. Built comprehensive multi-agent orchestration handling complex repository analysis workflows. Created breakthrough approach combining static analysis with intelligent AI insights. Developed reusable framework for AI agent workflows applicable to other code analysis domains.",
+    "challenges": "Orchestrating multiple AI agents with LangGraph while maintaining consistency and performance. Building hybrid analysis engine that accurately parses Python, JavaScript, and TypeScript codebases. Implementing self-correcting AI that can detect and fix its own diagram syntax errors. Handling complex dependency resolution across different package managers and configuration files. Ensuring production-ready performance with real-time progress updates and intelligent caching strategies."
   },
   {
-    "slug": "kpi-manager",
-    "name": "KPI Manager",
-    "summary": "Central KPI registry with trend APIs and Excel bulk-upload.",
-    "role": "Backend Lead",
-    "technologies": ["Django", "Celery", "PostgreSQL", "React"],
-    "links": { "caseStudy": "/experience/itbd" }
-  }
-]
+    "slug": "pqai",
+    "name": "PQAI: Patent Quality Artificial Intelligence",
+    "summary": "Enterprise-grade AI-powered prior-art search platform serving 100+ attorneys, researchers, and analysts daily. Collaboration with AT&T to democratize patent intelligence.",
+    "oneLiner": "Built production AI patent search platform processing millions of patents, serving 100+ daily users with ML-trained models from patent examination records.",
+    "role": "Full-stack Developer & Helped in building AI models",
+    "duration": "2+ years",
+    "type": ["AI/LLM", "Enterprise", "Open Source", "Deployed"],
+    "technologies": ["Python", "Flask", "Machine Learning", "Docker", "Elasticsearch", "Natural Language Processing", "Patent Analytics"],
+    "metrics": [
+      "100+ daily active users",
+      "Serves attorneys & researchers",
+      "50+ enterprise clients",
+      "MIT open-source license"
+    ],
+    "links": { 
+      "live": "https://search.projectpq.ai",
+      "github": "https://github.com/pqaidevteam/pqai"
+    },
+    "media": {
+      "thumbnail": null,
+      "demo_image": null,
+      "demo_gif": null,
+      "video_url": null,
+      "screenshots": [
+        "/images/projects/pqai-search.png",
+        "/images/projects/pqai-results.png",
+        "/images/projects/pqai-architecture.png"
+      ]
+    },
+    "featured": false,
+    "problem": "Patent attorneys, researchers, and analysts spent hours manually searching through millions of patents for prior-art analysis, often missing relevant inventions due to complex patent language and keyword limitations. Traditional search tools couldn't understand conceptual similarity between inventions described in different technical terms.",
+    "solution": "Developed PQAI, an AI-powered platform that takes plain language invention descriptions and finds similar prior work using machine learning models trained on past patent examination records. Built comprehensive ML pipeline with semantic search, patent classification, and intelligent ranking algorithms. Collaborated with AT&T to create enterprise-grade solution with API integration capabilities.",
+      "results": "Successfully deployed production platform serving 100+ daily users including attorneys, researchers, and analysts. Helped 50+ enterprise clients analyze latest inventions and conduct prior-art searches. Achieved significant time savings in patent research workflows and improved accuracy of prior-art discovery. Open-sourced under MIT license with 108+ GitHub stars and active community contributions.",
+      "challenges": "Training ML models on complex patent examination data, handling massive patent databases with millions of documents, building scalable architecture for real-time search, creating intuitive UI for complex patent analytics, ensuring accuracy for legal use cases, and maintaining performance under high concurrent usage from enterprise clients."
+    },
+    
+    {
+      "slug": "auto-eatventure",
+      "name": "Auto Eatventure: Unity Game Automation Engine",
+      "summary": "Innovative computer vision-based automation system for Unity mobile games using OpenCV, ADB, and Python. Breakthrough solution for automating non-native game elements through image processing.",
+      "oneLiner": "Built first-of-its-kind Unity game automation engine using computer vision and ADB, achieving 95%+ accuracy in element detection and full gameplay automation.",
+      "role": "Computer Vision Engineer & Automation Developer",
+      "duration": "3 weeks",
+      "type": ["Computer Vision", "Automation", "Personal", "Open Source"],
+      "technologies": ["Python", "OpenCV", "Android Debug Bridge (ADB)", "Computer Vision", "Image Processing", "Android Studios", "Unity Engine Analysis"],
+      "metrics": [
+        "95%+ element detection accuracy",
+        "3-level automation system",
+        "14 GitHub stars",
+        "Full gameplay automation"
+      ],
+      "links": { 
+        "live": null,
+        "github": "https://github.com/shikhar1verma/auto-eatventure"
+      },
+      "media": {
+        "thumbnail": null,
+        "demo_image": null,
+        "demo_gif": "https://user-images.githubusercontent.com/25281268/247642441-e9009b93-9bdc-499a-9400-0dc0380a9859.gif",
+        "video_url": "https://youtu.be/RTGBIerwbKE",
+        "screenshots": [
+
+        ]
+      },
+      "featured": false,
+      "problem": "Unity-based mobile games cannot be automated using traditional app automation tools (Appium, Selenium) because Unity renders UI elements as machine bytecode rather than native Android elements. Existing automation solutions require game source code access, making them impractical for third-party game automation. Manual gameplay of incremental games becomes extremely repetitive and time-consuming.",
+      "solution": "Developed innovative computer vision-based automation engine using OpenCV for template matching and ADB for device interaction. Created sophisticated image processing pipeline that captures screenshots, performs object detection using template matching, calculates element positions, and executes precise touch events. Built 3-tier automation system: basic element targeting, intelligent UI navigation with sliding events, and advanced level progression with boost optimization.",
+      "results": "Successfully achieved full game automation with 95%+ element detection accuracy. Completed 2-3 weeks of manual gameplay in automated sessions. Demonstrated breakthrough approach for Unity game automation without source code access. Created reusable framework applicable to other Unity-based mobile games. Generated community interest with 14 GitHub stars and active contributions from developers facing similar automation challenges.",
+      "challenges": "Overcoming Unity's bytecode rendering that hides UI elements from traditional automation tools. Developing robust template matching algorithms that work across different screen resolutions and game states. Handling timing synchronization between screenshot capture, image processing, and touch events. Creating adaptive element detection that accounts for dynamic game UI changes. Optimizing performance to minimize automation delays while maintaining accuracy."
+    },
+    {
+      "slug": "document-ai-chat",
+      "name": "Document AI Chat: Intelligent RAG-Powered PDF Assistant",
+      "summary": "Production-ready RAG (Retrieval-Augmented Generation) application enabling natural conversations with PDF documents. Built with FastAPI, pgvector, and Google Gemini AI.",
+      "oneLiner": "Built intelligent document chat system using RAG architecture with pgvector embeddings and Google Gemini, enabling natural Q&A with any PDF document.",
+      "role": "RAG Engineer & Full-stack Developer",
+      "duration": "4 weeks",
+      "type": ["AI/LLM", "RAG", "Vector Database", "Deployed"],
+      "technologies": ["FastAPI", "PostgreSQL", "pgvector", "Google Gemini AI", "Next.js 14", "React 18", "Tailwind CSS", "Docker", "Vector Embeddings"],
+      "metrics": [
+        "768-dimensional embeddings",
+        "Real-time PDF processing",
+        "Cosine similarity search",
+        "Production deployment ready"
+      ],
+      "links": { 
+        "live": "https://document-ai-chat.theshikhar.com",
+        "github": "https://github.com/shikhar1verma/document-ai-chat"
+      },
+      "media": {
+        "thumbnail": null,
+        "demo_image": null,
+        "demo_gif": null,
+        "video_url": null,
+        "screenshots": [
+
+        ]
+      },
+      "featured": false,
+      "problem": "Users struggle to extract specific information from lengthy PDF documents, often spending hours manually searching through pages. Traditional document search relies on exact keyword matching, missing contextual understanding. Existing solutions don't provide conversational interfaces or intelligent summarization capabilities. Most PDF tools lack the ability to understand document context and provide meaningful answers to complex queries.",
+      "solution": "Developed intelligent RAG (Retrieval-Augmented Generation) system that processes PDFs through advanced chunking, creates 768-dimensional vector embeddings using Google Gemini, and stores them in PostgreSQL with pgvector extension. Built conversational interface enabling natural language queries against document content. Implemented cosine similarity search with ivfflat indexing for fast retrieval and context-aware response generation using Gemini Flashlight model.",
+      "results": "Successfully deployed production-ready RAG application with live demo at document-ai-chat.theshikhar.com. Achieved fast document ingestion with drag-and-drop PDF upload and real-time embedding generation. Built responsive chat interface with light/dark theme support and stateless architecture. Implemented efficient vector search with PostgreSQL pgvector extension and automated data cleanup for demo environment. Created containerized deployment ready for cloud platforms.",
+      "challenges": "Optimizing PDF text chunking strategies for maximum context preservation while maintaining embedding quality. Implementing efficient vector similarity search with proper indexing for fast retrieval at scale. Building stateless frontend architecture with localStorage persistence and 7-day expiration. Designing RAG prompt construction to provide accurate, contextual answers from retrieved document chunks. Ensuring production-ready deployment with Docker containerization and database migrations."
+    },
+    {
+      "slug": "portfolio-generator",
+      "name": "Portfolio Site Generator: One-Click Developer Showcase Platform",
+      "summary": "JSON-driven portfolio scaffold built with Next.js 14 App Router and Tailwind CSS. Enables developers to create professional portfolios by simply editing JSON files - no coding required.",
+      "oneLiner": "Built developer-friendly portfolio generator with Next.js 14 App Router, enabling one-click deployment and JSON-based content management for instant professional websites.",
+      "role": "Full-stack Developer",
+      "duration": "6 weeks",
+      "type": ["Developer Tools", "Next.js", "Open Source", "Template"],
+      "technologies": ["Next.js 14", "React 18", "Tailwind CSS", "TypeScript", "Jest", "Vercel", "App Router", "Server Components"],
+      "metrics": [
+        "One-click Vercel deployment",
+        "JSON-driven content system",
+        "Responsive dark/light themes",
+        "SEO-optimized with sitemap"
+      ],
+      "links": { 
+        "live": "https://portfolio-shikhar.vercel.app",
+        "github": "https://github.com/shikhar1verma/portfolio"
+      },
+      "media": {
+        "thumbnail": null,
+        "demo_image": null,
+        "demo_gif": null,
+        "video_url": null,
+        "screenshots": [
+
+        ]
+      },
+      "featured": false,
+      "problem": "Developers spend significant time building portfolio websites from scratch, dealing with complex React setups, responsive design, dark mode implementation, and SEO optimization. Existing portfolio templates are either too rigid or require extensive coding knowledge to customize. Many developers want to focus on showcasing their work rather than building the showcase platform itself. Traditional portfolio solutions lack modern features like App Router, server components, and automatic deployment integration.",
+      "solution": "Developed comprehensive portfolio generator using Next.js 14 App Router with JSON-driven content management. Built intelligent fallback system using content/ and content-sample/ directories for seamless first-run experience. Implemented responsive design with Tailwind CSS, automatic dark/light theme switching, and custom brand color palette. Created dynamic routing for projects, experience, and achievements with server-side rendering. Integrated one-click Vercel deployment with environment configuration and automated build processes.",
+      "results": "Successfully created production-ready portfolio template with live demo at portfolio-shikhar.vercel.app. Enabled developers to launch professional portfolios in under 5 minutes by simply editing JSON files. Built comprehensive testing suite with Jest and React Testing Library covering components, integration, and unit tests. Implemented modern Next.js features including App Router, server components, and automatic static optimization. Created developer-friendly documentation with clear setup instructions and deployment guides.",
+      "challenges": "Designing flexible JSON schema that accommodates diverse portfolio content while maintaining simplicity. Implementing intelligent content fallback system that provides rich sample data for immediate deployment. Building responsive design system with Tailwind that works across all device sizes and orientations. Creating seamless dark/light theme switching with localStorage persistence and no flash of incorrect theme. Optimizing Next.js App Router performance with proper server component usage and static generation strategies."
+    },
+    {
+      "slug": "crunchbase-extension",
+      "name": "Crunchbase Show Hidden Results: Data Liberation Browser Extension",
+      "summary": "Chrome extension that reveals 10+ hidden results on Crunchbase searches across Companies, Investors, Funding rounds, Acquisitions, People, Events, Schools and Hubs. Bypasses premium restrictions through intelligent web scraping.",
+      "oneLiner": "Built Chrome extension using reverse engineering and web scraping to unlock hidden Crunchbase results, providing free access to premium business intelligence data.",
+      "role": "Browser Extension Developer",
+      "duration": "1 week",
+      "type": ["Browser Extension", "Web Scraping", "Reverse Engineering", "Productivity"],
+      "technologies": ["JavaScript", "Chrome Extension API", "Web Scraping", "DOM Manipulation", "Manifest V3", "Content Scripts", "Background Scripts"],
+      "metrics": [
+        "10+ hidden results revealed",
+        "8 content types supported",
+        "Chrome Web Store ready",
+        "Zero API dependencies"
+      ],
+      "links": { 
+        "live": null,
+        "github": "https://github.com/shikhar1verma/crunchbase-show-hidden-results-extension"
+      },
+      "media": {
+        "thumbnail": null,
+        "demo_image": null,
+        "demo_gif": "https://user-images.githubusercontent.com/25281268/261784375-5cc77ce8-1cb1-496e-9186-6fce12f33b69.png",
+        "video_url": null,
+        "screenshots": [
+
+        ]
+      },
+      "featured": false,
+      "problem": "Crunchbase limits search results to only show a few entries unless users pay for premium subscriptions, hiding valuable business intelligence data behind paywalls. Entrepreneurs, researchers, and analysts need access to comprehensive company, investor, and funding data for market research and competitive analysis. The hidden results contain crucial information about funding rounds, acquisitions, people, and events that are essential for business decision-making but inaccessible to free users.",
+      "solution": "Developed Chrome extension using reverse engineering techniques to analyze Crunchbase's client-side data loading mechanisms. Built intelligent web scraping system that intercepts and processes hidden API responses to reveal additional search results. Implemented content script injection that seamlessly integrates with Crunchbase's existing UI, displaying hidden results as if they were part of the original interface. Created robust DOM manipulation system supporting 8 different content types including Companies, Investors, Funding rounds, Acquisitions, People, Events, Schools, and Hubs.",
+      "results": "Successfully created working Chrome extension that reveals 10+ additional hidden results across all major Crunchbase search categories. Enabled free access to premium business intelligence data without requiring API keys or external services. Built user-friendly installation process with clear documentation and troubleshooting guides. Demonstrated successful reverse engineering of complex web application data flows and client-side rendering mechanisms. Created reusable framework for browser-based data liberation tools.",
+      "challenges": "Reverse engineering Crunchbase's complex client-side rendering and data loading mechanisms without access to source code. Building robust web scraping that works across different search result types and page layouts. Handling dynamic content loading and asynchronous API responses in browser extension context. Creating seamless UI integration that doesn't break existing Crunchbase functionality. Ensuring extension stability across Crunchbase website updates and maintaining compatibility with Chrome extension security policies."
+    }
+  ]
