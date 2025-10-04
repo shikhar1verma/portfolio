@@ -20,11 +20,15 @@
     },
     "media": {
       "thumbnail": null,
-      "demo_image": null,
+      "demo_image": "https://raw.githubusercontent.com/shikhar1verma/portfolio/refs/heads/main-portfolio/public/images/projects/cam-demo-image.png",
       "demo_gif": "https://raw.githubusercontent.com/shikhar1verma/code-architecture-mapper/main/assets/cam-demo.gif",
       "video_url": "https://youtu.be/TSzqqpr4jww",
       "screenshots": [
-
+        "https://raw.githubusercontent.com/shikhar1verma/portfolio/refs/heads/main-portfolio/public/images/projects/cam-sc-1.png",
+        "https://raw.githubusercontent.com/shikhar1verma/portfolio/refs/heads/main-portfolio/public/images/projects/cam-sc-2.png",
+        "https://raw.githubusercontent.com/shikhar1verma/portfolio/refs/heads/main-portfolio/public/images/projects/cam-sc-3.png",
+        "https://raw.githubusercontent.com/shikhar1verma/portfolio/refs/heads/main-portfolio/public/images/projects/cam-sc-4.png",
+        "https://raw.githubusercontent.com/shikhar1verma/portfolio/refs/heads/main-portfolio/public/images/projects/cam-sc-5.png"
       ]
     },
     "featured": true,
@@ -54,11 +58,11 @@
     },
     "media": {
       "thumbnail": null,
-      "demo_image": null,
+      "demo_image": "https://raw.githubusercontent.com/shikhar1verma/portfolio/refs/heads/main-portfolio/public/images/projects/document-ai-chat-demo-image.png",
       "demo_gif": null,
       "video_url": null,
       "screenshots": [
-
+        "https://raw.githubusercontent.com/shikhar1verma/portfolio/refs/heads/main-portfolio/public/images/projects/document-ai-chat-sc-1.png"
       ]
     },
     "featured": false,
@@ -88,10 +92,11 @@
     },
     "media": {
       "thumbnail": null,
-      "demo_image": null,
+      "demo_image": "https://raw.githubusercontent.com/shikhar1verma/portfolio/refs/heads/main-portfolio/public/images/projects/pqai-demo-image.png",
       "demo_gif": null,
       "video_url": null,
       "screenshots": [
+        "https://raw.githubusercontent.com/shikhar1verma/portfolio/refs/heads/main-portfolio/public/images/projects/pqai-sc-1.png"
       ]
     },
     "featured": false,
@@ -122,7 +127,7 @@
       },
       "media": {
         "thumbnail": null,
-        "demo_image": null,
+        "demo_image": "https://raw.githubusercontent.com/shikhar1verma/portfolio/refs/heads/main-portfolio/public/images/projects/auto-eatventure-demo-image.png",
         "demo_gif": "https://user-images.githubusercontent.com/25281268/247642441-e9009b93-9bdc-499a-9400-0dc0380a9859.gif",
         "video_url": "https://youtu.be/RTGBIerwbKE",
         "screenshots": [
@@ -157,11 +162,16 @@
       },
       "media": {
         "thumbnail": null,
-        "demo_image": null,
+        "demo_image": "https://raw.githubusercontent.com/shikhar1verma/portfolio/refs/heads/main-portfolio/public/images/projects/portfolio-demo-image.png",
         "demo_gif": null,
         "video_url": null,
         "screenshots": [
-
+          "https://raw.githubusercontent.com/shikhar1verma/portfolio/refs/heads/main-portfolio/public/images/projects/portfolio-sc-1.png",
+          "https://raw.githubusercontent.com/shikhar1verma/portfolio/refs/heads/main-portfolio/public/images/projects/portfolio-sc-2.png",
+          "https://raw.githubusercontent.com/shikhar1verma/portfolio/refs/heads/main-portfolio/public/images/projects/portfolio-sc-3.png",
+          "https://raw.githubusercontent.com/shikhar1verma/portfolio/refs/heads/main-portfolio/public/images/projects/portfolio-sc-4.png",
+          "https://raw.githubusercontent.com/shikhar1verma/portfolio/refs/heads/main-portfolio/public/images/projects/portfolio-sc-5.png",
+          "https://raw.githubusercontent.com/shikhar1verma/portfolio/refs/heads/main-portfolio/public/images/projects/portfolio-sc-6.png"
         ]
       },
       "featured": false,
