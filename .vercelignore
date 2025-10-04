@@ -2,6 +2,6 @@ content/*.json.sample
 dump_code.py
 project_code_dump.txt
 
-# Exclude project images from Vercel deployment
-# These will be served from GitHub raw URLs instead
+# Exclude project images from Vercel deployment.
+# These will be served from GitHub raw URLs instead.
 public/images/projects/
