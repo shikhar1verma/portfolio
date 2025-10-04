@@ -34,6 +34,40 @@
     "challenges": "Orchestrating multiple AI agents with LangGraph while maintaining consistency and performance. Building hybrid analysis engine that accurately parses Python, JavaScript, and TypeScript codebases. Implementing self-correcting AI that can detect and fix its own diagram syntax errors. Handling complex dependency resolution across different package managers and configuration files. Ensuring production-ready performance with real-time progress updates and intelligent caching strategies."
   },
   {
+    "slug": "document-ai-chat",
+    "name": "Document AI Chat: Intelligent RAG-Powered PDF Assistant",
+    "summary": "Production-ready RAG (Retrieval-Augmented Generation) application enabling natural conversations with PDF documents. Built with FastAPI, pgvector, and Google Gemini AI.",
+    "oneLiner": "Built intelligent document chat system using RAG architecture with pgvector embeddings and Google Gemini, enabling natural Q&A with any PDF document.",
+    "role": "RAG Engineer & Full-stack Developer",
+    "duration": "4 weeks",
+    "type": ["AI/LLM", "RAG", "Vector Database", "Deployed"],
+    "technologies": ["FastAPI", "PostgreSQL", "pgvector", "Google Gemini AI", "Next.js 14", "React 18", "Tailwind CSS", "Docker", "Vector Embeddings"],
+    "metrics": [
+      "768-dimensional embeddings",
+      "Real-time PDF processing",
+      "Cosine similarity search",
+      "Production deployment ready"
+    ],
+    "links": { 
+      "live": "https://document-ai-chat.theshikhar.com",
+      "github": "https://github.com/shikhar1verma/document-ai-chat"
+    },
+    "media": {
+      "thumbnail": null,
+      "demo_image": null,
+      "demo_gif": null,
+      "video_url": null,
+      "screenshots": [
+
+      ]
+    },
+    "featured": false,
+    "problem": "Users struggle to extract specific information from lengthy PDF documents, often spending hours manually searching through pages. Traditional document search relies on exact keyword matching, missing contextual understanding. Existing solutions don't provide conversational interfaces or intelligent summarization capabilities. Most PDF tools lack the ability to understand document context and provide meaningful answers to complex queries.",
+    "solution": "Developed intelligent RAG (Retrieval-Augmented Generation) system that processes PDFs through advanced chunking, creates 768-dimensional vector embeddings using Google Gemini, and stores them in PostgreSQL with pgvector extension. Built conversational interface enabling natural language queries against document content. Implemented cosine similarity search with ivfflat indexing for fast retrieval and context-aware response generation using Gemini Flashlight model.",
+    "results": "Successfully deployed production-ready RAG application with live demo at document-ai-chat.theshikhar.com. Achieved fast document ingestion with drag-and-drop PDF upload and real-time embedding generation. Built responsive chat interface with light/dark theme support and stateless architecture. Implemented efficient vector search with PostgreSQL pgvector extension and automated data cleanup for demo environment. Created containerized deployment ready for cloud platforms.",
+    "challenges": "Optimizing PDF text chunking strategies for maximum context preservation while maintaining embedding quality. Implementing efficient vector similarity search with proper indexing for fast retrieval at scale. Building stateless frontend architecture with localStorage persistence and 7-day expiration. Designing RAG prompt construction to provide accurate, contextual answers from retrieved document chunks. Ensuring production-ready deployment with Docker containerization and database migrations."
+  },
+  {
     "slug": "pqai",
     "name": "PQAI: Patent Quality Artificial Intelligence",
     "summary": "Enterprise-grade AI-powered prior-art search platform serving 100+ attorneys, researchers, and analysts daily. Collaboration with AT&T to democratize patent intelligence.",
@@ -58,9 +92,6 @@
       "demo_gif": null,
       "video_url": null,
       "screenshots": [
-        "/images/projects/pqai-search.png",
-        "/images/projects/pqai-results.png",
-        "/images/projects/pqai-architecture.png"
       ]
     },
     "featured": false,
@@ -104,40 +135,7 @@
       "results": "Successfully achieved full game automation with 95%+ element detection accuracy. Completed 2-3 weeks of manual gameplay in automated sessions. Demonstrated breakthrough approach for Unity game automation without source code access. Created reusable framework applicable to other Unity-based mobile games. Generated community interest with 14 GitHub stars and active contributions from developers facing similar automation challenges.",
       "challenges": "Overcoming Unity's bytecode rendering that hides UI elements from traditional automation tools. Developing robust template matching algorithms that work across different screen resolutions and game states. Handling timing synchronization between screenshot capture, image processing, and touch events. Creating adaptive element detection that accounts for dynamic game UI changes. Optimizing performance to minimize automation delays while maintaining accuracy."
     },
-    {
-      "slug": "document-ai-chat",
-      "name": "Document AI Chat: Intelligent RAG-Powered PDF Assistant",
-      "summary": "Production-ready RAG (Retrieval-Augmented Generation) application enabling natural conversations with PDF documents. Built with FastAPI, pgvector, and Google Gemini AI.",
-      "oneLiner": "Built intelligent document chat system using RAG architecture with pgvector embeddings and Google Gemini, enabling natural Q&A with any PDF document.",
-      "role": "RAG Engineer & Full-stack Developer",
-      "duration": "4 weeks",
-      "type": ["AI/LLM", "RAG", "Vector Database", "Deployed"],
-      "technologies": ["FastAPI", "PostgreSQL", "pgvector", "Google Gemini AI", "Next.js 14", "React 18", "Tailwind CSS", "Docker", "Vector Embeddings"],
-      "metrics": [
-        "768-dimensional embeddings",
-        "Real-time PDF processing",
-        "Cosine similarity search",
-        "Production deployment ready"
-      ],
-      "links": { 
-        "live": "https://document-ai-chat.theshikhar.com",
-        "github": "https://github.com/shikhar1verma/document-ai-chat"
-      },
-      "media": {
-        "thumbnail": null,
-        "demo_image": null,
-        "demo_gif": null,
-        "video_url": null,
-        "screenshots": [
-
-        ]
-      },
-      "featured": false,
-      "problem": "Users struggle to extract specific information from lengthy PDF documents, often spending hours manually searching through pages. Traditional document search relies on exact keyword matching, missing contextual understanding. Existing solutions don't provide conversational interfaces or intelligent summarization capabilities. Most PDF tools lack the ability to understand document context and provide meaningful answers to complex queries.",
-      "solution": "Developed intelligent RAG (Retrieval-Augmented Generation) system that processes PDFs through advanced chunking, creates 768-dimensional vector embeddings using Google Gemini, and stores them in PostgreSQL with pgvector extension. Built conversational interface enabling natural language queries against document content. Implemented cosine similarity search with ivfflat indexing for fast retrieval and context-aware response generation using Gemini Flashlight model.",
-      "results": "Successfully deployed production-ready RAG application with live demo at document-ai-chat.theshikhar.com. Achieved fast document ingestion with drag-and-drop PDF upload and real-time embedding generation. Built responsive chat interface with light/dark theme support and stateless architecture. Implemented efficient vector search with PostgreSQL pgvector extension and automated data cleanup for demo environment. Created containerized deployment ready for cloud platforms.",
-      "challenges": "Optimizing PDF text chunking strategies for maximum context preservation while maintaining embedding quality. Implementing efficient vector similarity search with proper indexing for fast retrieval at scale. Building stateless frontend architecture with localStorage persistence and 7-day expiration. Designing RAG prompt construction to provide accurate, contextual answers from retrieved document chunks. Ensuring production-ready deployment with Docker containerization and database migrations."
-    },
+    
     {
       "slug": "portfolio-generator",
       "name": "Portfolio Site Generator: One-Click Developer Showcase Platform",
@@ -193,8 +191,8 @@
       },
       "media": {
         "thumbnail": null,
-        "demo_image": null,
-        "demo_gif": "https://user-images.githubusercontent.com/25281268/261784375-5cc77ce8-1cb1-496e-9186-6fce12f33b69.png",
+        "demo_image": "https://user-images.githubusercontent.com/25281268/261784375-5cc77ce8-1cb1-496e-9186-6fce12f33b69.png",
+        "demo_gif": null,
         "video_url": null,
         "screenshots": [
 
