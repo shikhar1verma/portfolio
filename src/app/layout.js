@@ -4,6 +4,7 @@ import Footer from '@/components/Footer';
 import fs from 'fs/promises';
 import path from 'path';
 import VersionCheck from '@/components/VersionCheck';
+import { getAvatarPath } from '@/lib/avatar';
 
 export async function generateMetadata() {
   const data = await fs.readFile(path.join(process.cwd(), 'content/site.json'), 'utf8');
@@ -11,6 +12,7 @@ export async function generateMetadata() {
   const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://example.com';
   const title = site.title;
   const description = site.description;
+  const avatarPath = getAvatarPath();
   return {
     metadataBase: new URL(siteUrl),
     title,
@@ -20,7 +22,7 @@ export async function generateMetadata() {
       description,
       url: siteUrl,
       siteName: title,
-      images: ['/avatar.jpg'],
+      images: [avatarPath],
       type: 'website',
     },
     twitter: {

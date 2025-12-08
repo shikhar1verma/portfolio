@@ -127,9 +127,9 @@ function AchievementCard({ achievement }) {
           </Link>
 
           {/* External links */}
-          {(achievement.links?.official || achievement.links?.profile || achievement.links?.google_patents) && (
+          {(achievement.links?.official || achievement.links?.profile || achievement.links?.google_patents || achievement.links?.granted_patent) && (
             <a
-              href={achievement.links.official || achievement.links.profile || achievement.links.google_patents}
+              href={achievement.links.official || achievement.links.profile || achievement.links.google_patents || achievement.links.granted_patent}
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-1.5 px-3 py-2 text-sm font-medium text-gray-700 dark:text-gray-300 hover:text-brand-600 dark:hover:text-brand-400 transition-colors"

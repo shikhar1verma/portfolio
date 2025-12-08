@@ -3,6 +3,7 @@ import path from 'path';
 import Image from 'next/image';
 import Link from 'next/link';
 import { renderAbout } from '@/utility/profileAbout';
+import { processProfileAvatar } from '@/lib/avatar';
 
 async function readJsonFallback(primaryRelative, fallbackRelative) {
   try {
@@ -22,7 +23,8 @@ export async function generateMetadata() {
 }
 
 async function getProfile() {
-  return readJsonFallback('content/profile.json', 'content-sample/profile.json');
+  const profile = await readJsonFallback('content/profile.json', 'content-sample/profile.json');
+  return processProfileAvatar(profile);
 }
 
 export default async function Home() {

@@ -25,32 +25,39 @@
     "tags": ["AI", "Machine Learning", "Patent Search", "NLP", "Innovation Award"]
   },
   {
-    "slug": "patent-application-published",
-    "name": "Published Patent Application - AI/ML Innovation",
+    "slug": "us-patent-granted",
+    "name": "US Patent Granted - AI/ML Innovation",
     "category": "Award",
-    "summary": "Patent application published for innovative method to identify objectives from patent documents using machine learning.",
-    "description": "Published patent application for a novel method and system for identifying objectives from patent documents using machine learning and natural language processing. The invention presents an innovative approach to automatically extract and identify key objectives from complex patent texts, significantly improving patent analysis efficiency and accuracy. This work demonstrates advanced capabilities in AI/ML, particularly in applying statistical significance analysis and feature engineering to legal document processing.",
-    "year": 2023,
+    "summary": "Granted US patent for innovative method to identify objectives from patent documents using machine learning.",
+    "description": "Granted United States Patent for a novel method and system for identifying objectives from patent documents using machine learning and natural language processing. The invention presents an innovative approach to automatically extract and identify key objectives from complex patent texts, significantly improving patent analysis efficiency and accuracy. This patented work demonstrates advanced capabilities in AI/ML, particularly in applying statistical significance analysis and feature engineering to legal document processing. The patent includes 19 claims protecting the innovative methodology for automated objective identification in patent documents.",
+    "year": 2025,
     "achievement_type": "Intellectual Property",
     "category_label": "🏆 Awards & Recognition",
-    "icon": "📄",
-    "color": "blue",
+    "icon": "🎖️",
+    "color": "gold",
     "metrics": [
-      "US Patent Application",
-      "Application No: US20230161800A1",
-      "Published in 2023",
-      "AI/ML Patent"
+      "US Patent Granted",
+      "Patent No: US12436987B2",
+      "Granted in 2025",
+      "19 Claims"
     ],
     "patent_details": {
-      "application_number": "US20230161800A1",
+      "patent_number": "US12436987B2",
+      "application_number": "17738034",
+      "original_application": "US20230161800A1",
       "title": "Method and system to identify objectives from patent documents",
       "abstract": "A method and a system for identifying an objective from documents is disclosed. In some embodiment, the method includes determining a correlation of each of a plurality of keywords extracted from a set of documents with respect to each class within a set of predefined classes. The method further includes determining a first set of keywords from the plurality of keywords. The method further includes identifying a set of data samples comprising a first plurality of sentences and a second plurality of sentences. The method further includes computing a statistical significance value of each keyword in the first set of keywords with respect to the first plurality of sentences. The method further includes generating a first set of features by discarding at least one keyword from the first set of keywords. The method further includes training a machine learning model to identify an objective of a document.",
-      "jurisdiction": "United States"
+      "jurisdiction": "United States",
+      "status": "Granted",
+      "grant_date": "2025",
+      "publication_date": "2023",
+      "claims": 19
     },
     "links": {
-      "google_patents": "https://patents.google.com/patent/US20230161800A1"
+      "granted_patent": "https://patents.google.com/patent/US12436987B2",
+      "original_application": "https://patents.google.com/patent/US20230161800A1"
     },
-    "tags": ["Patent", "Machine Learning", "NLP", "Innovation", "AI Research"]
+    "tags": ["Patent", "Machine Learning", "NLP", "Innovation", "AI Research", "Granted Patent"]
   },
   {
     "slug": "leetcode-319-day-streak",

@@ -2,6 +2,7 @@ import fs from 'fs/promises';
 import path from 'path';
 import Image from 'next/image';
 import { renderAbout } from '@/utility/profileAbout';
+import { processProfileAvatar } from '@/lib/avatar';
 
 async function readJsonFallback(primaryRelative, fallbackRelative) {
   try {
@@ -21,7 +22,8 @@ export async function generateMetadata() {
 }
 
 async function getProfile() {
-  return readJsonFallback('content/profile.json', 'content-sample/profile.json');
+  const profile = await readJsonFallback('content/profile.json', 'content-sample/profile.json');
+  return processProfileAvatar(profile);
 }
 
 async function getEducation() {
